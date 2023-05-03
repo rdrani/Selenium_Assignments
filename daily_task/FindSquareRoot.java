@@ -9,6 +9,7 @@ public class FindSquareRoot {
 		{
 			if(i*i > n) 
 			{
+//			to find the largest number whose square is less than or equal to the given number
 				System.out.println("The square root of "+ n +" is "+ (i-1));
 				break;
 			}
