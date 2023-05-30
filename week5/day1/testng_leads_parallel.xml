@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Leaftaps" parallel="classes" >
+  <test thread-count="5" name="Leaftaps Leads">
+    <classes>
+      <class name="assignments.week5.day1.leaftaps.CreateLead"/>
+      <class name="assignments.week5.day1.leaftaps.EditLead"/>
+      <class name="assignments.week5.day1.leaftaps.DuplicateLead"/>
+      <class name="assignments.week5.day1.leaftaps.MergeLead"/>
+      <class name="assignments.week5.day1.leaftaps.DeleteLead"/>
+    </classes>
+  </test> <!-- Leaftaps Leads -->
+</suite> <!-- Leaftaps -->
