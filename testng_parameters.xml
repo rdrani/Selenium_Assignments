@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Leaftaps">
+<parameter name = "url" value="http://leaftaps.com/opentaps/control/main"></parameter>
+<parameter name = "username" value = "Demosalesmanager"></parameter>
+<parameter name = "password" value = "crmsfa"></parameter>
+  <test thread-count="5" name="Leads">
+    <classes>
+      <class name="assignments.week6.day2.leaftaps.CreateLead"/>
+      <class name="assignments.week6.day2.leaftaps.EditLead"/>
+      <class name="assignments.week6.day2.leaftaps.MergeLead"/>
+      <class name="assignments.week6.day2.leaftaps.DuplicateLead"/>
+      <class name="assignments.week6.day2.leaftaps.DeleteLead"/>
+    </classes>
+  </test> <!-- Leads -->
+</suite> <!-- Leaftaps -->
