@@ -9,6 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 					, monochrome = true
 //					, dryRun = true 
 //					, tags = "@Sanity or @Unit"
+//					, tags = "@Regression"
 					)
 public class SalesForceRunner extends BaseClass{
 
